@@ -9,9 +9,9 @@ class Landing extends Component {
 <Grid className="landing-grid">
 <Cell col={12}>
     <img
-    src="https://www.stickees.com/files/avatars/male-avatars/1697-andrew-sticker.png"
-    alt="avatar"
-    className="avatar-img"
+    src="./images/DamianTapp.jpg"
+    alt="Damian Tapp"
+    className="img"
     />
     <div className="banner-text">
         <h1>Full Stack Web Developer</h1>
