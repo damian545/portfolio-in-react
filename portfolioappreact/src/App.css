@@ -42,6 +42,7 @@
   font-size: 66px;
   font-weight: bold;
   color: lightyellow;
+  letter-spacing: 3px;
 }
 
 .banner-text hr {
@@ -92,7 +93,7 @@
   justify-content: center;
   width: 80%;
   height: 500px;
-  color: black;
+  color: gray;
   margin-bottom: 20px;
   margin: auto;
   position: fixed;
@@ -105,9 +106,11 @@
 .contact-grid p {
   font-family: "Oxygen", sans-serif;
   font-weight: bold;
-  color: black;
+  color: lavender;
   font-size: 25px;
   font-display: auto;
+  letter-spacing: 1px;
+  line-height: 1.2;
 }
 .contact-grid hr {
   border-top: 5px dotted lightyellow;
@@ -127,6 +130,7 @@ img {
   border-radius: 25px;
 }
 h2 {
+  letter-spacing: 3px;
   color: orange;
   text-shadow: 3px 3px 8px black;
 }

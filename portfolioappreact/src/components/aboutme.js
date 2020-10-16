@@ -5,34 +5,30 @@ import { Grid, Cell } from "react-mdl";
 class Aboutme extends Component {
     render() {
         return (
-            <div className="contact-body">
+            <div className="contact-body" style={{background:"aquamarine"}}>
             <Grid className="contact-grid">
               <Cell className="aboutme" col={12}>
+                <h2 style={{fontFamily: "Lobster, cursive", fontSize: "73px"}}>About Me</h2>
+                <hr style={{ borderTop: "3px solid #e22947", width: "100%" }} />
                 <p style={{ width: "100%", margin: "auto", paddingTop: "1em" }}>
-                  Hello, My name is Damian Tapp. I am 46 years old and I have only been coding for nearly
-                  a year so far. I have decided to change my current job into a more rewarding one, I am a creative 
-                  person even at a young age. So choosing to be a web designer was a no brainer for me, I found 
-                  this "Coding Bootcamp at Adelaide University" in late 2019. Not knowing if it was the right choice 
-                  for me, I registered myself in. Adelaide University called me and verified that I had the right 
-                  attitude for this course, even though I had never done coding before. Boy, was I in for a wild 
-                  ride of intense education...
-                  <br/>
-                  <br/>
-                  <hr style={{ color: "lightseagreen", width: "100%"}}/>
-                  <br/>
-                  I want to elaborate on more about how I think and how I work things out.
-                  I did art as a 7 year old and it stuck with me until now, so I understand color concepts and 
-                  if they work together or not. I like Graffiti still to this day because most of what I look 
-                  at is highly detailed and very creative. I built a drift car from a stock street car, to a 
-                  high powered drift machine. Everything I did was based on logic, everything I bought had it's 
-                  own important function. I also built a retaining wall in my back yard, I had to carry every 
-                  20kg brick through the house (4 tonne), up 20 stairs and dig out by hand the section for stairs up my back 
-                  yard (2 tonne of dirt). I did skateboarding for 20 years and I did a bit of video editing, with music too.
-                  Basically when I have a goal, I pursue it logically and with all my strength to get the 
-                  best possible results. That is what I do with all my projects and at my current place of work.
-                
-                </p>
-                
+                Hello, my name is Damian Tapp. I'm 46 years old and I recently graduated
+              from a bootcamp coding course at Adelaide University. I completed a lot of 
+              things for the first time during this course,
+              many of which I am very proud of. Seeing as I have only started to
+              use code for the first time at the end of 2019 leading up to this
+              course. I am a very hard working person and I love finding out how
+              things work, whether it is during Uni or with the hobbies that I
+              do. I really want to change my job into a career. I have been
+              working hard to learn what it takes to be a web designer, so I can
+              fulfill my dream of change. I believe that my current job will
+              fade away and getting into technology based work is here to stay,
+              I want be a part of it. After spending 27 years in one job with
+              little to no achievements, has effected me some what. I would love
+              to be in an industry that has achievements and something to be
+              proud of at the end of the day. About 6 years ago, when I was
+              heavily into skateboarding. I did a lot of filming and film
+              editing, I love to create. This is why I should be a programmer...          
+                </p>                
               </Cell>
             </Grid>
           </div>  

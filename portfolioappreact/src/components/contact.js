@@ -8,20 +8,16 @@ class Contact extends Component {
             <div className="contact-body" style={{background: 'url(./images/redbricks1.jpg) center / cover'}}>
             <Grid className="contact-grid">
               <Cell col={6}>
-                <h2>Damian Tapp</h2>
-                
+                <h2 style={{fontFamily: "Lobster, cursive", fontSize: "73px"}}>Damian Tapp</h2>
+                <br/>
                 <img
-                  src="/images/DamianTapp.jpg"
-                  alt="profile picture"
+                  src="./images/DamianTapp.jpg"
+                  alt=""
                   style={{ height: "280px" }}
-                />
-                <p style={{ width: "80%", margin: "auto", paddingTop: "1em" }}>
-                  To get in contact with me, email or just give
-                  me a call and we can chat.
-                </p>
+                />                
               </Cell>
               <Cell col={6}>
-                <h2>Contact Me</h2>
+                <h2 style={{fontFamily: "Lobster, cursive", fontSize: "73px"}}>Contact Me</h2>
                 <hr />
                 <div className="contact-list">
                   <List>

@@ -23,7 +23,7 @@ toggleCategories() {
                 href="https://damian545.github.io/password-generator/">Try It Yourself</Button>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
-        <IconButton name="share" />
+        <IconButton name="" />
         </CardMenu>
         </Card>
     )
@@ -41,7 +41,7 @@ toggleCategories() {
                 href="https://damian545.github.io/dayscheduler/">Try It Yourself</Button>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
-        <IconButton name="share" />
+        <IconButton name="" />
         </CardMenu>
         </Card>
     )
@@ -59,7 +59,7 @@ toggleCategories() {
                 href="https://damian545.github.io/quizwithtimer/">Try It Yourself</Button>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
-        <IconButton name="share" />
+        <IconButton name="" />
         </CardMenu>
         </Card>
     )
@@ -77,7 +77,7 @@ toggleCategories() {
                 href="https://damian545.github.io/perfecthair/">Try It Yourself</Button>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
-        <IconButton name="share" />
+        <IconButton name="" />
         </CardMenu>
         </Card>
     )
@@ -95,7 +95,7 @@ toggleCategories() {
                  href="https://damian545.github.io/budget-tracker/">Try It Yourself</Button>
          </CardActions>
          <CardMenu style={{color: '#fff'}}>
-         <IconButton name="share" />
+         <IconButton name="" />
          </CardMenu>
          </Card>
     )
@@ -113,7 +113,7 @@ toggleCategories() {
                  href="https://damian545.github.io/fitness-tracker/">Try It Yourself</Button>
          </CardActions>
          <CardMenu style={{color: '#fff'}}>
-         <IconButton name="share" />
+         <IconButton name="" />
          </CardMenu>
          </Card>
     )
@@ -131,7 +131,7 @@ toggleCategories() {
                  href="https://damian545.github.io/new-updatedportfolio2/">Try It Yourself</Button>          
          </CardActions>           
          <CardMenu style={{color: '#fff'}}>           
-         <IconButton name="share" />           
+         <IconButton name="" />           
          </CardMenu>          
          </Card>           
     )
@@ -143,13 +143,13 @@ toggleCategories() {
          This is my new version of the Milestone #5.
         </CardText>
         <CardActions border>        
-        <Button colored 
+        <Button colored                 
                 style={{color: "black"}}
                 target="_blank"
                 href="https://damian545.github.io/milestone-5/">Try It Yourself</Button>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
-        <IconButton name="share" />
+        <IconButton name="" />
         </CardMenu>
         </Card>
     )

@@ -14,23 +14,23 @@ class Landing extends Component {
     className="img"
     />
     <div className="banner-text">
-        <h1>Full Stack Web Developer</h1>
+        <h1 style={{fontFamily: "Lobster, cursive", fontSize: "73px"}}>Full Stack Web Developer</h1>
 
         <hr/>
 
         <p>HTML/CSS | Bootstrap | Javascript | React | Express HBS | MySQL | NodeJS</p>
 
         <div className="social-links">
-            <a href="https://google.com" ref="noopener noreferrer" target="_blank">
+            <a href="https://google.com">
                 <i className="fa fa-linkedin-square" aria-hidden="true" />
             </a>
-            <a href="https://google.com" ref="noopener noreferrer" target="_blank">
+            <a href="https://google.com">
                 <i className="fa fa-github-square" aria-hidden="true" />
             </a>
-            <a href="https://google.com" ref="noopener noreferrer" target="_blank">
+            <a href="https://google.com">
                 <i className="fa fa-free-code-camp" aria-hidden="true" />
             </a>
-            <a href="https://google.com" ref="noopener noreferrer" target="_blank">
+            <a href="https://google.com">
                 <i className="fa fa-youtube-square" aria-hidden="true" />
             </a>
         </div>

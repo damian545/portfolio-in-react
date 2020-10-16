@@ -12,16 +12,16 @@ class Resume extends Component {
         <Grid className="landing-grid">
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
-              <h3 style={{ paddingTop: "2em", color: "lightseagreen" }}>Damian Tapp</h3>
+              <h3 style={{ paddingTop: "2em", color: "lightseagreen", fontFamily: "Lobster, cursive"}}>Damian Tapp</h3>
               <hr style={{ borderTop: "3px dotted lightseagreen", width: "100%" }} />
               <img
                 src="/images/DamianTapp.jpg"
-                alt="profile image"
+                alt=""
                 style={{ height: "350px" }}
               />
             </div>
 
-            <h4 style={{ color: "lightseagreen" }}>Programmer</h4>
+            <h4 style={{ color: "lightseagreen", fontFamily: "Lobster, cursive"}}>Programmer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
             <p>
               Hello, my name is Damian Tapp. I am 46 years old and looking to
@@ -32,23 +32,35 @@ class Resume extends Component {
               activities.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
-            <h5>ADDRESS</h5>            
+
+            <h5 style={{fontFamily: "Lobster, cursive"}}>ADDRESS</h5>  
+
             <p style={{ color: "orange", fontSize: "20px"}}>1 Hacker Way Menlo Park, 94025</p>
+
             <hr style={{ borderTop: "3px solid orange", width: "100%" }} />
-            <h5>PHONE</h5>            
+
+            <h5 style={{fontFamily: "Lobster, cursive"}}>PHONE</h5> 
+
             <p style={{ color: "orange", fontSize: "20px"}}>0402 123 456</p>
+
             <hr style={{ borderTop: "3px solid orange", width: "100%" }} />
-            <h5>EMAIL</h5>            
+
+            <h5 style={{fontFamily: "Lobster, cursive"}}>EMAIL</h5>  
+
             <p style={{ color: "orange", fontSize: "20px"}}>someone@example.com</p>
+
             <hr style={{ borderTop: "3px solid orange", width: "100%" }} />
-            <h5>WEB</h5>           
+
+            <h5 style={{fontFamily: "Lobster, cursive"}}>WEB</h5>  
+
             <p style={{ color: "orange", fontSize: "20px"}}>damiantapp.com</p>
+            
             <hr style={{ borderTop: "3px solid orange", width: "100%" }} />
             
             
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            <h2>Education</h2>
+            <h2 style={{fontFamily: "Lobster, cursive", fontSize: "73px"}}>Education</h2>
 
             <Education
               startYear={1987}
@@ -64,15 +76,16 @@ class Resume extends Component {
               schoolDiscription="Completed a 6 month course in web development, called a coding bootcamp."
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
-            <h2>Experience</h2>
+            <h2 style={{fontFamily: "Lobster, cursive", fontSize: "73px"}}>Experience</h2>
             <Experience
               startYear={1993}
               endYear={2020}
               jobName="Factory Worker at Monroe Australia"
-              jobDiscription="Currently working as a Forklift operator, Crane operator and Tubemill operator"
+              jobDiscription="I'm currently working as a Forklift operator, Crane operator and Tubemill operator.
+              I also bring great organisation skills, people skills(Especially when I have to leazon with my boss and truck drivers) and a great work ethic to the table."
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
-            <h2>Language Skills</h2>
+            <h2 style={{fontFamily: "Lobster, cursive", fontSize: "73px"}}>Language Skills</h2>
             <Skills skill="JAVASCRIPT" progress={60} />
             <br />
             <Skills skill="HTML/CSS" progress={100} />
