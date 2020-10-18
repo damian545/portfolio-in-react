@@ -80,11 +80,10 @@
   color: white;
   padding: 2em;
   border-radius: 10px;
-  border: 3px solid red;
 }
 .aboutme p {
   color: white;
-  font-size: 19px;
+  font-size: 13px;
   font-weight: bold;
 }
 .contact-body,
@@ -113,26 +112,26 @@
   line-height: 1.2;
 }
 .contact-grid hr {
-  border-top: 5px dotted lightyellow;
+  border-top: 5px dotted rgb(216, 18, 44);
   width: 50%;
   margin: auto;
-  box-shadow: 3px 3px 8px black;
 }
 .contact-list i {
   font-size: 66px;
   padding-right: 5rem;
   color: lightyellow;
-  text-shadow: 3px 3px 8px black;
+  text-shadow: 3px 3px 8px rgb(54, 20, 179);
 }
 
 img {
   height: 250px;
   border-radius: 25px;
+  border: 3px solid black;
 }
 h2 {
   letter-spacing: 3px;
   color: orange;
-  text-shadow: 3px 3px 8px black;
+  text-shadow: 1px 1px 4px red;
 }
 h5 {
   color: lightseagreen;

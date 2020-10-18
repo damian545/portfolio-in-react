@@ -128,7 +128,7 @@ toggleCategories() {
          <Button colored 
                  style={{color: "black"}}
                  target="_blank"
-                 href="https://damian545.github.io/new-updatedportfolio2/">Try It Yourself</Button>          
+                 href="https://damian545.github.io/new-updatedportfolio2/">Click Here To See More</Button>          
          </CardActions>           
          <CardMenu style={{color: '#fff'}}>           
          <IconButton name="" />           
@@ -146,7 +146,7 @@ toggleCategories() {
         <Button colored                 
                 style={{color: "black"}}
                 target="_blank"
-                href="https://damian545.github.io/milestone-5/">Try It Yourself</Button>
+                href="https://damian545.github.io/milestone-5/">Click Here To See More</Button>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
         <IconButton name="" />
@@ -164,7 +164,7 @@ toggleCategories() {
                  <Tab style={{ color: "aqua"}}>Quiz</Tab>
                  <Tab style={{ color: "aqua"}}>Project #1</Tab>
                  <Tab style={{ color: "aqua"}}>Budget Tracker</Tab>
-                 <Tab style={{ color: "aqua"}} >Fitness Tracker</Tab>
+                 <Tab style={{ color: "aqua"}}>Fitness Tracker</Tab>
                  <Tab style={{ color: "aqua"}}>Portfolio #2</Tab> 
                  <Tab style={{ color: "aqua"}}>Milestone #5</Tab>                
                 </Tabs>

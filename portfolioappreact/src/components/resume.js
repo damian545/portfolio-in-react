@@ -12,12 +12,12 @@ class Resume extends Component {
         <Grid className="landing-grid">
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
-              <h3 style={{ paddingTop: "2em", color: "lightseagreen", fontFamily: "Lobster, cursive"}}>Damian Tapp</h3>
-              <hr style={{ borderTop: "3px dotted lightseagreen", width: "100%" }} />
+              <h3 style={{ paddingTop: "2em", color: "lightseagreen", fontFamily: "Lobster, cursive", textShadow: "1px 1px 4px black", letterSpacing:"2px"}}>Damian Tapp</h3>
+              <hr style={{ borderTop: "3px dotted lightseagreen", width: "100%", textShadow: "1px 1px 4px black"}} />
               <img
                 src="/images/DamianTapp.jpg"
                 alt=""
-                style={{ height: "350px" }}
+                style={{ height: "350px" }}                
               />
             </div>
 
@@ -25,33 +25,32 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
             <p>
               Hello, my name is Damian Tapp. I am 46 years old and looking to
-              change my current job from a Factory Worker to a Web Developer.
+              change my current job from a Factory Worker to a Web Designer.
               Learning coding for the first time has been exciting and scary all
-              at the same time. But I am really enjoying it, I have learnt a lot
-              things to do with computing languages and I have completed many
-              activities.
+              at the same time. I am really enjoying it, I am learning more 
+              and more nearly everyday. Even after the course was finished..
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
 
-            <h5 style={{fontFamily: "Lobster, cursive"}}>ADDRESS</h5>  
+            <h5 style={{fontFamily: "Lobster, cursive", letterSpacing:"2px"}}>ADDRESS</h5>  
 
             <p style={{ color: "orange", fontSize: "20px"}}>1 Hacker Way Menlo Park, 94025</p>
 
             <hr style={{ borderTop: "3px solid orange", width: "100%" }} />
 
-            <h5 style={{fontFamily: "Lobster, cursive"}}>PHONE</h5> 
+            <h5 style={{fontFamily: "Lobster, cursive", letterSpacing:"2px"}}>PHONE</h5> 
 
             <p style={{ color: "orange", fontSize: "20px"}}>0402 123 456</p>
 
             <hr style={{ borderTop: "3px solid orange", width: "100%" }} />
 
-            <h5 style={{fontFamily: "Lobster, cursive"}}>EMAIL</h5>  
+            <h5 style={{fontFamily: "Lobster, cursive", letterSpacing:"2px"}}>EMAIL</h5>  
 
             <p style={{ color: "orange", fontSize: "20px"}}>someone@example.com</p>
 
             <hr style={{ borderTop: "3px solid orange", width: "100%" }} />
 
-            <h5 style={{fontFamily: "Lobster, cursive"}}>WEB</h5>  
+            <h5 style={{fontFamily: "Lobster, cursive", letterSpacing:"2px"}}>WEB</h5>  
 
             <p style={{ color: "orange", fontSize: "20px"}}>damiantapp.com</p>
             
@@ -82,7 +81,8 @@ class Resume extends Component {
               endYear={2020}
               jobName="Factory Worker at Monroe Australia"
               jobDiscription="I'm currently working as a Forklift operator, Crane operator and Tubemill operator.
-              I also bring great organisation skills, people skills(Especially when I have to leazon with my boss and truck drivers) and a great work ethic to the table."
+              I have great organisation skills, people skills with my boss about what is done for the next customer and with the truck drivers about what is getting loaded, as well as great work ethic.
+              I'm honest and transparent."
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2 style={{fontFamily: "Lobster, cursive", fontSize: "73px"}}>Language Skills</h2>

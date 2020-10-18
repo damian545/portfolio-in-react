@@ -9,7 +9,7 @@ function App() {
     <div className="demo-big-content">
     <Layout>
         <Header className="header-color" title={
-          <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lobster, cursive"}} to="/">
+          <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lobster, cursive", textShadow: "1px 1px 4px red"}} to="/">
             My Portfolio
           </Link>
         } scroll>

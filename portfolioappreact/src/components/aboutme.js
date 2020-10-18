@@ -5,12 +5,12 @@ import { Grid, Cell } from "react-mdl";
 class Aboutme extends Component {
     render() {
         return (
-            <div className="contact-body" style={{background:"aquamarine"}}>
+            <div className="contact-body" style={{background: "#eb5757"}}>
             <Grid className="contact-grid">
-              <Cell className="aboutme" col={12}>
+              <Cell className="aboutme" col={8}>
                 <h2 style={{fontFamily: "Lobster, cursive", fontSize: "73px"}}>About Me</h2>
                 <hr style={{ borderTop: "3px solid #e22947", width: "100%" }} />
-                <p style={{ width: "100%", margin: "auto", paddingTop: "1em" }}>
+                <p>
                 Hello, my name is Damian Tapp. I'm 46 years old and I recently graduated
               from a bootcamp coding course at Adelaide University. I completed a lot of 
               things for the first time during this course,
@@ -30,6 +30,17 @@ class Aboutme extends Component {
               editing, I love to create. This is why I should be a programmer...          
                 </p>                
               </Cell>
+              <Cell col={4}>
+            <div style={{ textAlign: "center" }}>
+              <h3 style={{ paddingTop: "2em", color: "lightseagreen", fontFamily: "Lobster, cursive", textShadow: "1px 1px 4px black", letterSpacing:"2px"}}>Damian Tapp</h3>              
+              <img
+                src="/images/DamianTapp.jpg"
+                alt=""
+                style={{ height: "350px", width:"280px"}}
+                border="3px solid black" 
+              />
+            </div>            
+            </Cell>
             </Grid>
           </div>  
         );
