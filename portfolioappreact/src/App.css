@@ -1,27 +1,27 @@
 .header-color {
-  background: #23074d; /* fallback for old browsers */
+  background: #ed213a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to bottom,
-    #23074d,
-    #cc5333
+    to top,
+    #ed213a,
+    #93291e
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to bottom,
-    #23074d,
-    #cc5333
+    to top,
+    #ed213a,
+    #93291e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .landing-grid {
-  background: #eb5757; /* fallback for old browsers */
+  background: #ff416c; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to bottom,
-    #eb5757,
-    #000000
+    to top,
+    #ff416c,
+    #ff4b2b
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to bottom,
-    #eb5757,
-    #000000
+    to top,
+    #ff416c,
+    #ff4b2b
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   top: 0;
@@ -80,6 +80,7 @@
   color: white;
   padding: 2em;
   border-radius: 10px;
+  margin: auto;
 }
 .aboutme p {
   color: white;
@@ -111,11 +112,7 @@
   letter-spacing: 1px;
   line-height: 1.2;
 }
-.contact-grid hr {
-  border-top: 5px dotted rgb(216, 18, 44);
-  width: 50%;
-  margin: auto;
-}
+
 .contact-list i {
   font-size: 66px;
   padding-right: 5rem;
@@ -126,13 +123,12 @@
 img {
   height: 250px;
   border-radius: 25px;
-  border: 3px solid black;
 }
 h2 {
   letter-spacing: 3px;
-  color: orange;
-  text-shadow: 1px 1px 4px red;
+  color: lightyellow;
+  text-shadow: 2px 2px 6px red;
 }
 h5 {
-  color: lightseagreen;
+  color: lightyellow;
 }

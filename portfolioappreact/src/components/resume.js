@@ -12,49 +12,46 @@ class Resume extends Component {
         <Grid className="landing-grid">
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
-              <h3 style={{ paddingTop: "2em", color: "lightseagreen", fontFamily: "Lobster, cursive", textShadow: "1px 1px 4px black", letterSpacing:"2px"}}>Damian Tapp</h3>
-              <hr style={{ borderTop: "3px dotted lightseagreen", width: "100%", textShadow: "1px 1px 4px black"}} />
+              <h3 style={{ paddingTop: "2em", color: "lightyellow", fontFamily: "Lobster, cursive", letterSpacing:"2px", fontSize:"35px"}}>Damian Tapp</h3>              
               <img
-                src="/images/DamianTapp.jpg"
+                src="/images/DamianTapp2.jpg"
                 alt=""
-                style={{ height: "350px" }}                
+                style={{ height: "350px", border:"3px solid black" }}                
               />
             </div>
 
-            <h4 style={{ color: "lightseagreen", fontFamily: "Lobster, cursive"}}>Programmer</h4>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
-            <p>
-              Hello, my name is Damian Tapp. I am 46 years old and looking to
-              change my current job from a Factory Worker to a Web Designer.
-              Learning coding for the first time has been exciting and scary all
-              at the same time. I am really enjoying it, I am learning more 
-              and more nearly everyday. Even after the course was finished..
+            <h4 style={{ color: "lightyellow", fontFamily: "Lobster, cursive", fontSize:"30px"}}>Programmer</h4>
+            <hr style={{ borderTop: "3px solid aqua", width: "100%" }} />
+            <p style={{ fontSize:"20px"}}>
+              Hello, my name is Damian Tapp. As a web designer, I will be doing 
+              my absolute best to give you the most out of your website I will 
+              design for you because when you are happy I will be too.
             </p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
+            <hr style={{ borderTop: "3px solid aqua", width: "100%" }} />
 
-            <h5 style={{fontFamily: "Lobster, cursive", letterSpacing:"2px"}}>ADDRESS</h5>  
+            <h5 style={{fontFamily: "Lobster, cursive", letterSpacing:"2px", fontSize:"30px"}}>ADDRESS</h5>  
 
-            <p style={{ color: "orange", fontSize: "20px"}}>1 Hacker Way Menlo Park, 94025</p>
+            <p style={{ color: "black", fontSize: "25px"}}>1 Hacker Way Menlo Park, 94025</p>
 
-            <hr style={{ borderTop: "3px solid orange", width: "100%" }} />
+            <hr style={{ borderTop: "3px solid aqua", width: "100%" }} />
 
-            <h5 style={{fontFamily: "Lobster, cursive", letterSpacing:"2px"}}>PHONE</h5> 
+            <h5 style={{fontFamily: "Lobster, cursive", letterSpacing:"2px", fontSize:"30px"}}>PHONE</h5> 
 
-            <p style={{ color: "orange", fontSize: "20px"}}>0402 123 456</p>
+            <p style={{ color: "black", fontSize: "25px"}}>0402 123 456</p>
 
-            <hr style={{ borderTop: "3px solid orange", width: "100%" }} />
+            <hr style={{ borderTop: "3px solid aqua", width: "100%" }} />
 
-            <h5 style={{fontFamily: "Lobster, cursive", letterSpacing:"2px"}}>EMAIL</h5>  
+            <h5 style={{fontFamily: "Lobster, cursive", letterSpacing:"2px", fontSize:"30px"}}>EMAIL</h5>  
 
-            <p style={{ color: "orange", fontSize: "20px"}}>someone@example.com</p>
+            <p style={{ color: "black", fontSize: "25px"}}>someone@example.com</p>
 
-            <hr style={{ borderTop: "3px solid orange", width: "100%" }} />
+            <hr style={{ borderTop: "3px solid aqua", width: "100%" }} />
 
-            <h5 style={{fontFamily: "Lobster, cursive", letterSpacing:"2px"}}>WEB</h5>  
+            <h5 style={{fontFamily: "Lobster, cursive", letterSpacing:"2px", fontSize:"30px"}}>WEB</h5>  
 
-            <p style={{ color: "orange", fontSize: "20px"}}>damiantapp.com</p>
+            <p style={{ color: "black", fontSize: "25px"}}>damiantapp.com</p>
             
-            <hr style={{ borderTop: "3px solid orange", width: "100%" }} />
+            <hr style={{ borderTop: "3px solid aqua", width: "100%" }} />
             
             
           </Cell>
@@ -81,7 +78,7 @@ class Resume extends Component {
               endYear={2020}
               jobName="Factory Worker at Monroe Australia"
               jobDiscription="I'm currently working as a Forklift operator, Crane operator and Tubemill operator.
-              I have great organisation skills, people skills with my boss about what is done for the next customer and with the truck drivers about what is getting loaded, as well as great work ethic.
+              I have great organisation skills, people skills with my boss about what is done for the next customer and with the truck drivers about what is getting loaded, as well as a great work ethic.
               I'm honest and transparent."
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />

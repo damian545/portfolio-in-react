@@ -8,29 +8,30 @@ class Contact extends Component {
             <div className="contact-body" style={{background: 'url(./images/poster3.jpg) center / cover'}}>
             <Grid className="contact-grid">
               <Cell col={6}>
-                <h2 style={{fontFamily: "Lobster, cursive", fontSize: "73px"}}>Damian Tapp</h2>
+                <h2 style={{fontFamily: "Lobster, cursive", fontSize: "73px", color:"red", textShadow:"3px 3px 8px black"}}>Damian Tapp</h2>
                 <br/>
                 <img
-                  src="./images/DamianTapp.jpg"
+                  src="./images/DamianTapp2.jpg"
                   alt=""
-                  style={{ height: "350px", width:"280px" }}
-                  border="3px solid black"
+                  style={{ height: "350px", width:"280px", boxShadow:"5px 5px 10px black", border:"1px solid white"}}
                 />                
+                  
               </Cell>
               <Cell col={6}>
-                <h2 style={{fontFamily: "Lobster, cursive", fontSize: "73px"}}>Contact Me</h2>
-                <hr />
+                <h2 style={{fontFamily: "Lobster, cursive", fontSize: "73px", color:"red", textShadow:"3px 3px 8px black"}}>Contact Me</h2>
+                
                 <div className="contact-list">
                   <List>
                     <ListItem>
                       <ListItemContent
-                        style={{ fontSize: "45px", fontFamily: "Anton", color: "black", textShadow: "3px 3px 8px yellow" }}
+                        style={{ fontSize: "50px", fontFamily: "Anton", color: "black", textShadow: "3px 3px 8px yellow" }}
                       >
                         <i className="fa fa-phone-square" aria-hidden="true" />
                         0402 123 456
                       </ListItemContent>
                     </ListItem>
-    
+                    <br/>
+                    <br/>    
                     <ListItem>
                       <ListItemContent
                         style={{ fontSize: "45px", fontFamily: "Anton", color: "black", textShadow: "3px 3px 8px yellow" }}
@@ -40,7 +41,7 @@ class Contact extends Component {
                       </ListItemContent>
                     </ListItem>
                   </List>
-                  <hr />
+                 
                 </div>
               </Cell>
             </Grid>
